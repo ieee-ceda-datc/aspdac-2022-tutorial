@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: alpine
+  namespace: rdf
+spec:
+  volumes:
+  - name: rdf-workspace
+    persistentVolumeClaim:
+      claimName: rdf-workspace-pv-claim
+  containers:
+  - name: alpine
+    image: alpine:latest
+    command: ["/bin/sleep", "3650d"]
+    volumeMounts:
+    - name: rdf-workspace
+      mountPath: /workspace

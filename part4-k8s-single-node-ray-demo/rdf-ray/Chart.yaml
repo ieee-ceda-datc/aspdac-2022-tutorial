@@ -1,0 +1,10 @@
+apiVersion: v2
+name: rdf-ray
+description: A Helm chart for deployments of RDF Ray on Kubernetes.
+type: application
+
+# Chart version.
+version: 0.1.0
+
+# Ray version.
+appVersion: "latest"

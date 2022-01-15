@@ -1,0 +1,6 @@
+bak
+**/.ipynb_checkpoints
+**/workspace/experiment-[0-9]*
+**/rdf-k8s-cluster-workspace
+datc-rdf-demo/datc-rdf
+**/.DS_Store

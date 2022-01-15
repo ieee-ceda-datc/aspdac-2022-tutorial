@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: rdf-workspace-pv
+  labels:
+    type: local
+spec:
+  storageClassName: manual
+  capacity:
+    storage: 20Gi
+  accessModes:
+    - ReadWriteMany
+  hostPath:
+    path: "/Users/jinwookjung/github/aspdac-2022-tutorial-sandbox/k8s-single-node/workspace"

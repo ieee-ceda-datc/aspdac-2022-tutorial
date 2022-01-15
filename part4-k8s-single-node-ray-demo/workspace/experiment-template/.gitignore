@@ -1,0 +1,7 @@
+*
+
+!.gitignore
+!Makefile
+!config.mk
+!constraint.sdc
+!gcd.v

@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: rdf-workspace-pv-claim
+  namespace: rdf
+  labels:
+    billingType: "hourly"
+    region: us-south
+    zone: dal10 # Set the zone same as your cluster zone
+spec:
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 8Gi
+  storageClassName: ibmc-file-silver
