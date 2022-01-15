@@ -9,4 +9,21 @@ This repository contains the materials for ASP-DAC 2022 Tutorial-1, "IEEE CEDA D
     - Part 4 single-node Kubernetes/Ray demo: [Link](./part4-k8s-single-node-ray-demo)
     - Part 4 multi-node Kubernetes/Ray demo: [Link](./part4-k8s-multi-node-ray-demo)
 
-Contact: Jinwook Jung (jinwookjung@ibm.com)
+
+## Prerequisites (common across the demos)
+
+* Docker Desktop: [installation instruction](https://docs.docker.com/desktop/windows/install/)
+* Python 3.9.6, with Ray, matplotlib, and webp
+    - Refer to a reference conda environment is [./environment.yaml](./environment.yaml).
+    - Example to create the fresh conda environment on your own:
+
+        ```bash
+        conda create -n rdf-ray python=3.9.6
+        conda activate
+        conda install -c conda-forge jupyterlab
+        pip install ray matplotlib webp
+        ```
+
+## Contact
+
+Jinwook Jung (jinwookjung@ibm.com)
