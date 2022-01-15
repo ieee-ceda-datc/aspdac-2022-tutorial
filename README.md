@@ -14,7 +14,7 @@ This repository contains the materials for [ASP-DAC 2022 Tutorial-1](https://asp
 
 * Docker Desktop: [installation instruction](https://docs.docker.com/desktop/windows/install/)
 * Python 3.9.6, with Ray, matplotlib, and webp
-    - Refer to a reference conda environment is [./environment.yaml](./environment.yaml).
+    - Refer to a reference conda environment [./environment.yaml](./environment.yaml).
     - Example to create the fresh conda environment on your own:
 
         ```bash
