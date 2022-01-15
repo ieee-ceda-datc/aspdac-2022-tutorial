@@ -1,6 +1,6 @@
 # ASP-DAC 2022 Tutorial-1 Material
 
-This repository contains the materials for ASP-DAC 2022 Tutorial-1, "IEEE CEDA DATC RDF and METRICS2.1: Toward a Standard Platform for ML-Enabled EDA and IC Design."
+This repository contains the materials for [ASP-DAC 2022 Tutorial-1](https://aspdac2022.github.io/tutorial/index.html#t1), "IEEE CEDA DATC RDF and METRICS2.1: Toward a Standard Platform for ML-Enabled EDA and IC Design."
 
 * Presentation slide: [Link](./presentation/aspdac2022-tutorial1.pdf)
 * Notebooks and codes:
